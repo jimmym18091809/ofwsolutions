@@ -3,297 +3,339 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="OFW Solutions Ltd helps UK businesses and individuals deal with HMRC tax arrears, Time to Pay negotiations, and HMRC debt pressure with discreet, specialist support.">
+  <meta name="description" content="OFW Solutions Ltd helps UK businesses and individuals deal with HMRC tax arrears through expert Time to Pay advice, HMRC negotiation support, and discreet consultancy.">
   <meta name="theme-color" content="#171614">
-  <title>OFW Solutions Ltd | HMRC Debt Specialists</title>
+  <title>OFW Solutions Ltd | HMRC Debt & Time to Pay Specialists</title>
+
+  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&f[]=clash-display@500,600,700&display=swap" rel="stylesheet">
+
+  <!-- Styles & Scripts -->
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
 <body>
-  <a class="skip-link" href="#main-content">Skip to content</a>
+  <a class="skip-link" href="#main">Skip to main content</a>
 
-  <div class="site-shell">
+  <div class="shell">
     <header class="site-header" id="top">
       <div class="container nav-wrap">
         <a href="#top" class="brand" aria-label="OFW Solutions home">
           <span class="brand-mark" aria-hidden="true">
             <svg viewBox="0 0 120 120" role="img" aria-label="OFW Solutions logo">
-              <path d="M24 71C24 46 41 30 63 30C81 30 96 42 98 59H81C79 51 72 46 63 46C50 46 41 55 41 71C41 86 50 95 63 95C72 95 79 90 81 82H98C96 100 81 111 63 111C41 111 24 96 24 71Z" fill="currentColor"></path>
-              <path d="M56 60H101" stroke="currentColor" stroke-width="10" stroke-linecap="round"></path>
+              <defs>
+                <linearGradient id="ofw-grad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="currentColor" stop-opacity="0.9" />
+                  <stop offset="1" stop-color="currentColor" stop-opacity="0.4" />
+                </linearGradient>
+              </defs>
+              <circle cx="60" cy="60" r="40" fill="none" stroke="url(#ofw-grad)" stroke-width="8" />
+              <path d="M35 72C35 50 47 38 64 38C77 38 88 46 90 60" fill="none" stroke="currentColor" stroke-width="8" stroke-linecap="round" />
+              <path d="M50 64H96" stroke="currentColor" stroke-width="8" stroke-linecap="round" />
             </svg>
           </span>
           <span class="brand-text">
-            <strong>OFW Solutions</strong>
-            <small>HMRC debt specialists</small>
+            <strong>OFW Solutions Ltd</strong>
+            <small>HMRC debt & Time to Pay</small>
           </span>
         </a>
 
         <nav class="site-nav" aria-label="Primary">
           <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" data-nav-toggle>
-            <span class="sr-only">Open menu</span>
+            <span class="sr-only">Toggle navigation</span>
             <span></span>
             <span></span>
           </button>
 
           <div class="nav-links" data-desktop-nav>
             <a href="#services">Services</a>
-            <a href="#difference">Why OFW</a>
+            <a href="#sectors">Who we help</a>
             <a href="#process">Process</a>
-            <a href="#insights">Insights</a>
+            <a href="#cases">Case studies</a>
+            <a href="#resources">Resources</a>
             <a href="#contact">Contact</a>
           </div>
 
           <div class="nav-actions">
-            <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch theme">
+            <button type="button" class="theme-toggle" data-theme-toggle aria-label="Switch to light mode">
               <span class="theme-icon theme-icon-sun" aria-hidden="true">☼</span>
               <span class="theme-icon theme-icon-moon" aria-hidden="true">◐</span>
             </button>
-            <a class="button button-secondary" href="#contact">Book confidential call</a>
+            <a class="button button-outline" href="#contact">Book confidential call</a>
           </div>
         </nav>
       </div>
 
       <div class="mobile-menu" id="mobile-menu" data-mobile-menu hidden>
         <a href="#services">Services</a>
-        <a href="#difference">Why OFW</a>
+        <a href="#sectors">Who we help</a>
         <a href="#process">Process</a>
-        <a href="#insights">Insights</a>
+        <a href="#cases">Case studies</a>
+        <a href="#resources">Resources</a>
         <a href="#contact">Contact</a>
       </div>
     </header>
 
-    <main id="main-content">
-      <section class="hero section">
+    <main id="main">
+      <!-- HERO -->
+      <section class="section hero" aria-labelledby="hero-title">
         <div class="container hero-grid">
           <div class="hero-copy reveal">
-            <div class="eyebrow">HMRC tax arrears support for UK businesses and individuals</div>
-            <h1>Move from pressure and panic to a structured HMRC repayment strategy.</h1>
+            <p class="eyebrow">HMRC tax arrears support • UK-wide</p>
+            <h1 id="hero-title">Turn HMRC pressure into a clear, sustainable repayment plan.</h1>
             <p class="hero-text">
-              OFW Solutions helps clients deal with VAT, PAYE, Self Assessment and Corporation Tax arrears with calm,
-              commercially realistic support. The website is designed to win trust fast, qualify leads properly, and make
-              distressed prospects feel they are speaking to a specialist rather than a generic debt company.
+              OFW Solutions specialises in helping directors, sole traders and individuals deal with VAT, PAYE, Self Assessment
+              and Corporation Tax arrears. This site is built to convert high-intent enquiries, qualify them properly, and
+              give distressed visitors confidence to speak openly.
             </p>
             <div class="hero-actions">
               <a class="button button-primary" href="#contact">Start a confidential assessment</a>
-              <a class="button button-ghost" href="#difference">See how the process works</a>
+              <a class="button button-ghost" href="#process">See how the process works</a>
             </div>
-            <div class="trust-row" aria-label="Trust highlights">
+            <dl class="hero-metrics" aria-label="Key facts">
               <div>
-                <strong>33+ years</strong>
-                <span>hands-on HMRC knowledge</span>
+                <dt>Years working with HMRC systems</dt>
+                <dd data-counter data-target="33">0+</dd>
               </div>
               <div>
-                <strong>4 core tax heads</strong>
-                <span>PAYE, VAT, SA and CT</span>
+                <dt>Core tax heads covered</dt>
+                <dd data-counter data-target="4">0</dd>
               </div>
               <div>
-                <strong>Discreet support</strong>
-                <span>for urgent and sensitive cases</span>
+                <dt>Response time</dt>
+                <dd>Within 1 business day*</dd>
               </div>
-            </div>
+            </dl>
+            <p class="metric-note">*Adjust copy to your actual availability before going live.</p>
           </div>
 
-          <aside class="hero-panel reveal" aria-label="Lead qualification snapshot">
-            <div class="hero-card hero-card-primary">
-              <div class="card-topline">Lead triage</div>
-              <h2>What a strong OFW lead looks like</h2>
+          <aside class="hero-panel reveal" aria-label="Lead triage snapshot">
+            <article class="hero-card hero-card-primary">
+              <p class="card-topline">Ideal enquiry profile</p>
+              <h2>Who this service is built for</h2>
               <ul class="feature-list" role="list">
-                <li>They have active HMRC arrears and need a realistic repayment path.</li>
-                <li>They want to act before enforcement, penalties or court escalation worsen the situation.</li>
-                <li>They need specialist help explaining the numbers, not just a generic helpline.</li>
+                <li>People and businesses with real HMRC arrears, not general money worries.</li>
+                <li>Clients ready to engage before enforcement escalates further.</li>
+                <li>Prospects who value calm, commercial advice rather than aggressive sales tactics.</li>
               </ul>
-            </div>
-
+            </article>
             <div class="hero-stack">
-              <div class="hero-metric glass-card">
-                <span class="metric-label">Typical cases</span>
-                <strong>Director tax pressure</strong>
-                <p>Mixed PAYE, VAT and Corporation Tax arrears where cash flow is tight but recoverable.</p>
-              </div>
-              <div class="hero-metric glass-card accent-card">
-                <span class="metric-label">Response style</span>
-                <strong>Clear, calm, non-judgmental</strong>
-                <p>Designed for people who feel overwhelmed by letters, deadlines and HMRC contact.</p>
-              </div>
+              <article class="hero-metric-panel glass-card">
+                <p class="metric-label">Typical situations</p>
+                <h3>Directors juggling multiple tax heads</h3>
+                <p>PAYE, VAT and Corporation Tax arrears where cash flow is tight but the business is still viable.</p>
+              </article>
+              <article class="hero-metric-panel glass-card accent-card">
+                <p class="metric-label">Tone of support</p>
+                <h3>Clear, discreet, non-judgmental</h3>
+                <p>Designed for people who feel overwhelmed by HMRC letters, deadlines and collection agencies.</p>
+              </article>
             </div>
           </aside>
         </div>
       </section>
 
-      <section class="proof-band section-tight">
-        <div class="container proof-grid reveal">
-          <article>
-            <span>Focused on outcomes</span>
-            <p>Built to convert high-intent enquiries, not just attract empty traffic.</p>
-          </article>
-          <article>
-            <span>Ready for paid traffic</span>
-            <p>Ideal for Google Ads, LinkedIn outreach, accountant referrals and organic search pages.</p>
-          </article>
-          <article>
-            <span>GitHub-friendly build</span>
-            <p>Static HTML, CSS and JS with clean structure, responsive behaviour and no framework lock-in.</p>
-          </article>
-        </div>
-      </section>
-
+      <!-- SERVICES -->
       <section class="section" id="services">
         <div class="container section-grid">
-          <div class="section-heading reveal">
-            <div class="eyebrow">Services</div>
-            <h2>Specialist support around the exact HMRC issues people search for.</h2>
+          <header class="section-heading reveal">
+            <p class="eyebrow">Services</p>
+            <h2>Specialist HMRC debt support built around the real problems people search for.</h2>
             <p>
-              The structure below is intentionally built around high-intent situations so the site feels commercially sharp and SEO-ready.
+              The service cards below map to high-intent search and referral phrases so the site feels aligned with what prospects
+              actually need: not generic “debt help”, but targeted support around tax arrears and Time to Pay structures.
             </p>
-          </div>
+          </header>
 
           <div class="service-layout">
-            <article class="service-card reveal service-card-large">
-              <div class="service-number">01</div>
-              <h3>Time to Pay strategy and negotiation support</h3>
-              <p>Help preparing realistic proposals, affordability logic and supporting information before engaging HMRC.</p>
+            <article class="service-card service-card-large reveal">
+              <p class="service-number">01</p>
+              <h3>Time to Pay strategy and negotiation</h3>
+              <p>Designing realistic repayment proposals, preparing supporting figures and evidence, and guiding clients through HMRC conversations.</p>
+              <ul class="bullet-list" role="list">
+                <li>Clarify what HMRC expects before agreeing a plan.</li>
+                <li>Align repayments with actual cash flow instead of guesses.</li>
+                <li>Reduce the risk of rejected proposals or unrealistic promises.</li>
+              </ul>
             </article>
+
             <article class="service-card reveal">
-              <div class="service-number">02</div>
-              <h3>Limited company tax arrears</h3>
-              <p>PAYE, VAT and Corporation Tax issues for directors trying to stabilise trading businesses.</p>
+              <p class="service-number">02</p>
+              <h3>Limited company arrears</h3>
+              <p>PAYE, VAT and Corporation Tax issues facing trading businesses and their directors.</p>
             </article>
+
             <article class="service-card reveal">
-              <div class="service-number">03</div>
+              <p class="service-number">03</p>
               <h3>Self Assessment arrears</h3>
-              <p>Support for self-employed clients and individuals who have missed payments or built up penalties.</p>
+              <p>Support for self-employed clients, landlords and individuals who have missed payments or built up penalties.</p>
             </article>
+
             <article class="service-card reveal">
-              <div class="service-number">04</div>
-              <h3>HMRC pressure and enforcement risk</h3>
-              <p>Urgent cases involving repeated demands, debt collection contact or threatened escalation.</p>
+              <p class="service-number">04</p>
+              <h3>HMRC enforcement & pressure</h3>
+              <p>Urgent situations involving final demands, debt collection agencies or threatened court action.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt" id="difference">
-        <div class="container difference-grid">
-          <div class="difference-copy reveal">
-            <div class="eyebrow">Why OFW</div>
-            <h2>A premium positioning for a business that needs trust before the first phone call.</h2>
-            <p>
-              Most websites in this category look generic, dated or overly aggressive. This one is built to feel restrained,
-              credible and modern, with the kind of tone that suits directors, sole traders and individuals dealing with sensitive tax problems.
-            </p>
-          </div>
+      <!-- SECTORS / WHO WE HELP -->
+      <section class="section section-alt" id="sectors">
+        <div class="container section-grid">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Who we help</p>
+            <h2>Sectors and scenarios where OFW Solutions can make the biggest difference.</h2>
+          </header>
 
-          <div class="difference-panels">
-            <article class="difference-card reveal">
-              <h3>Specialist tone</h3>
-              <p>No shouty gimmicks, no cheap debt clichés, no hard-sell design language. Just authority and clarity.</p>
+          <div class="sector-grid">
+            <article class="sector-card reveal">
+              <h3>Hospitality & leisure</h3>
+              <p>Bars, restaurants and venues juggling VAT, PAYE and seasonal cash flow.</p>
             </article>
-            <article class="difference-card reveal">
-              <h3>Faster lead qualification</h3>
-              <p>The enquiry flow is shaped around tax type, arrears scale and enforcement stage, so better leads reach your dad.</p>
+            <article class="sector-card reveal">
+              <h3>Construction & trades</h3>
+              <p>Businesses facing mixed Corporation Tax, VAT and CIS-related pressures.</p>
             </article>
-            <article class="difference-card reveal">
-              <h3>Modern trust signals</h3>
-              <p>Structured layouts, restrained motion, strong typography and dark/light mode give the business a high-end digital presence.</p>
+            <article class="sector-card reveal">
+              <h3>Property & professional services</h3>
+              <p>Consultancies, agencies and landlords balancing Self Assessment and company tax obligations.</p>
+            </article>
+            <article class="sector-card reveal">
+              <h3>Self-employed & individuals</h3>
+              <p>People dealing with missed Self Assessment payments and mounting penalties.</p>
             </article>
           </div>
         </div>
       </section>
 
+      <!-- PROCESS -->
       <section class="section" id="process">
         <div class="container process-wrap">
-          <div class="section-heading reveal">
-            <div class="eyebrow">Process</div>
-            <h2>A four-stage journey that makes the service feel real and easy to understand.</h2>
-          </div>
+          <header class="section-heading reveal">
+            <p class="eyebrow">Process</p>
+            <h2>A four-stage journey from first call to agreed HMRC plan.</h2>
+          </header>
 
           <div class="process-grid">
             <article class="process-card reveal">
-              <span class="process-step">Step 1</span>
-              <h3>Initial confidential review</h3>
-              <p>Understand the arrears, deadlines and current pressure points without overwhelming the prospect.</p>
+              <p class="process-step">Step 1</p>
+              <h3>Calm, confidential review</h3>
+              <p>Discuss arrears, deadlines and current HMRC contact without judgement, to understand the real starting point.</p>
             </article>
             <article class="process-card reveal">
-              <span class="process-step">Step 2</span>
-              <h3>Affordability and commercial reality</h3>
-              <p>Clarify what can genuinely be paid and where a sustainable route may exist.</p>
+              <p class="process-step">Step 2</p>
+              <h3>Affordability & commercial reality</h3>
+              <p>Explore income, essential costs and commitments to identify payment levels that can genuinely be sustained.</p>
             </article>
             <article class="process-card reveal">
-              <span class="process-step">Step 3</span>
-              <h3>Proposal structure</h3>
-              <p>Build the narrative, supporting figures and repayment logic that can be put forward properly.</p>
+              <p class="process-step">Step 3</p>
+              <h3>Proposal structure & evidence</h3>
+              <p>Prepare the narrative, figures and explanations needed before any HMRC Time to Pay request is made.</p>
             </article>
             <article class="process-card reveal">
-              <span class="process-step">Step 4</span>
-              <h3>Ongoing support</h3>
-              <p>Stay close to the case so the client feels supported beyond one conversation or one letter.</p>
+              <p class="process-step">Step 4</p>
+              <h3>Ongoing support & adjustments</h3>
+              <p>Stay engaged so clients don’t feel left alone once a plan is agreed, especially if circumstances change.</p>
             </article>
           </div>
         </div>
       </section>
 
-      <section class="section section-alt" id="insights">
-        <div class="container insights-grid">
-          <div class="section-heading reveal">
-            <div class="eyebrow">Insights</div>
-            <h2>Built-in content areas to support SEO, ads and trust-building later.</h2>
-          </div>
+      <!-- CASE STUDIES -->
+      <section class="section section-alt" id="cases">
+        <div class="container section-grid">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Case studies</p>
+            <h2>Illustrative scenarios that show how structured support can change outcomes.</h2>
+          </header>
 
-          <article class="insight-card reveal insight-card-featured">
-            <span class="insight-tag">Guide</span>
-            <h3>What is an HMRC Time to Pay arrangement?</h3>
-            <p>Use this space for an educational article that captures searches from people trying to understand their options before they contact anyone.</p>
-          </article>
-          <article class="insight-card reveal">
-            <span class="insight-tag">Checklist</span>
-            <h3>What documents should you prepare?</h3>
-            <p>A future downloadable resource that helps prospects self-qualify and gives your dad stronger initial calls.</p>
-          </article>
-          <article class="insight-card reveal">
-            <span class="insight-tag">FAQ</span>
-            <h3>Common HMRC arrears questions</h3>
-            <p>Perfect for answering objections around penalties, affordability, payment plans and enforcement fears.</p>
-          </article>
+          <div class="case-grid">
+            <article class="case-card reveal">
+              <h3>North West hospitality group with VAT & PAYE arrears</h3>
+              <p>Multiple sites, mounting arrears and HMRC letters. A structured Time to Pay plan helped protect jobs and stabilise cash flow.</p>
+            </article>
+            <article class="case-card reveal">
+              <h3>Self-employed consultant with Self Assessment debt</h3>
+              <p>Missed January payments created penalties and anxiety. A clear plan and disciplined tax saving restored control.</p>
+            </article>
+            <article class="case-card reveal">
+              <h3>Construction director facing mixed tax pressure</h3>
+              <p>Combined Corporation Tax, VAT and personal tax issues. Coordinated planning reduced insolvency risk and clarified options.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section contact-section" id="contact">
+      <!-- RESOURCES / SEO-LIKE AREA -->
+      <section class="section" id="resources">
+        <div class="container section-grid">
+          <header class="section-heading reveal">
+            <p class="eyebrow">Resources</p>
+            <h2>Content areas ready for SEO articles, FAQs and lead magnets.</h2>
+            <p>
+              These cards are placeholders you can turn into full articles or downloads later, helping the site win search traffic
+              around Time to Pay, Self Assessment arrears and HMRC enforcement questions.
+            </p>
+          </header>
+
+          <div class="resource-grid">
+            <article class="resource-card reveal">
+              <p class="resource-tag">Guide</p>
+              <h3>What is an HMRC Time to Pay arrangement?</h3>
+              <p>Explain who qualifies, typical durations and what HMRC expects before agreeing a plan.</p>
+            </article>
+            <article class="resource-card reveal">
+              <p class="resource-tag">Checklist</p>
+              <h3>Documents to prepare before speaking to HMRC</h3>
+              <p>Turn this into a downloadable checklist that helps prospects and improves consultation quality.</p>
+            </article>
+            <article class="resource-card reveal">
+              <p class="resource-tag">FAQ</p>
+              <h3>Common HMRC arrears questions</h3>
+              <p>Cover penalties, enforcement agencies, court risks and what happens if a payment is missed.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="section contact" id="contact">
         <div class="container contact-grid">
           <div class="contact-copy reveal">
-            <div class="eyebrow">Confidential enquiry</div>
-            <h2>Ready for direct enquiries, GitHub hosting and future form integration.</h2>
+            <p class="eyebrow">Confidential enquiry</p>
+            <h2>Built to capture serious leads and make it easy to respond quickly.</h2>
             <p>
-              Replace the placeholder details below with your real business contact information, then connect the form to Formspree,
-              Netlify Forms, Basin, Getform or your preferred backend once you deploy.
+              Replace the placeholder details below with your real contact information. Then connect the form to Formspree,
+              Netlify Forms, Basin, Getform or a custom backend when you deploy this site.
             </p>
-            <div class="contact-points" role="list">
-              <div role="listitem">
-                <span>Phone</span>
-                <strong>+44 (0)XXX XXX XXXX</strong>
+            <dl class="contact-points" aria-label="Contact options">
+              <div>
+                <dt>Phone</dt>
+                <dd>+44 (0)XXX XXX XXXX</dd>
               </div>
-              <div role="listitem">
-                <span>Email</span>
-                <strong>info@ofwsolutions.co.uk</strong>
+              <div>
+                <dt>Email</dt>
+                <dd>info@ofwsolutions.co.uk</dd>
               </div>
-              <div role="listitem">
-                <span>Coverage</span>
-                <strong>North West and nationwide UK support</strong>
+              <div>
+                <dt>Coverage</dt>
+                <dd>North West base, UK-wide remote support</dd>
               </div>
-            </div>
+            </dl>
           </div>
 
-          <form class="contact-form reveal" action="#" method="post">
+          <form class="contact-form reveal" action="#" method="post" novalidate>
             <div class="form-grid">
               <label>
                 <span>Full name</span>
                 <input type="text" name="name" placeholder="Your name" required>
               </label>
               <label>
-                <span>Company name</span>
-                <input type="text" name="company" placeholder="If applicable">
+                <span>Company name (if applicable)</span>
+                <input type="text" name="company" placeholder="Business or trading name">
               </label>
               <label>
                 <span>Email address</span>
@@ -304,7 +346,7 @@
                 <input type="tel" name="phone" placeholder="Best number to reach you" required>
               </label>
               <label>
-                <span>Tax type</span>
+                <span>Tax type(s) involved</span>
                 <select name="tax-type" required>
                   <option value="">Select one</option>
                   <option>PAYE</option>
@@ -325,7 +367,7 @@
             </label>
             <div class="form-footer">
               <button class="button button-primary" type="submit">Submit confidential enquiry</button>
-              <p>This form is front-end only in the starter build. Connect it to your preferred form handler before going live.</p>
+              <p>This starter build keeps the form front-end only. Add your chosen form handler before going live.</p>
             </div>
           </form>
         </div>
@@ -339,8 +381,8 @@
           <p>HMRC debt support, Time to Pay guidance and specialist consultancy for sensitive tax arrears cases.</p>
         </div>
         <div class="footer-meta">
-          <span>Static website build ready for GitHub deployment.</span>
-          <span>Replace placeholders before publishing.</span>
+          <span>Static build ready for GitHub Pages.</span>
+          <span>Replace placeholders and connect forms before publishing.</span>
         </div>
       </div>
     </footer>
